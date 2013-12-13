@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Nico Vitti</title>
+<link rel="stylesheet" href="stylesheets/skeleton.css">
+
+<link href='http://fonts.googleapis.com/css?family=Nixie+One|Titan+One' rel='stylesheet' type='text/css'>
+    
+<link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+    
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({smoothHeight:true});
+     });
+</script>
+
+    <style type="text/css">
+    
+    .container {
+        margin-bottom: 20px;
+        }
+
+    .social {
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-left: auto;
+        }
+    #linkedin {
+        margin-right: 0px;
+        margin-left: 5px;
+        }
+
+     .site-nav {
+        font-family: 'Titan One', serif;
+        font-size: 38px;
+        text-align: left;
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
+        
+    .site-nav li {
+	    display: inline-block;
+	    margin-left: 30px;
+    }
+    
+    .site-nav li:first-child {
+	    margin-left: 0px;
+    }
+    
+    .site-header {
+    	color: #545252;
+    	margin-left: 10px;
+    	margin-right: auto;
+        margin-bottom: 50px;
+        }
+        
+    .photo-item {
+	    position: relative;
+	    display: inline-block;
+    } 
+    
+    .photo-item img {
+	    position: relative;
+	    z-index: 1;
+    }
+    
+    .photo-item:hover .photo-content {
+	    opacity: 1;
+    }
+    
+    .photo-item .photo-content {
+    	transition: opacity .3s ease-in;
+    	-webkit-transition: opacity .3s ease-in;
+		-moz-transition: opacity .3s ease-in;
+    	opacity: 0;
+	    position: absolute;
+	    top:0;
+	    left: 0;
+	    z-index: 10;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(255,255,255,0.75);
+    }
+    
+    .photo-item .photo-starburst {
+    	border-radius: 50%; /* remove when using starburst photo */
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	width: 300px;
+    	height: 300px;
+    	margin: -150px 0 0 -150px;
+    	text-indent: -99999px;
+    	overflow: hidden;
+	    
+    }
+    
+    #photo-burger .photo-starburst {
+	    background: transparent url(images/tacos-hover-txt.png) center center no-repeat; /* set starburst background image */
+    }
+    
+    .about-content {
+        margin-bottom: 50px;
+        }
+    
+    .menu-content {
+        margin-bottom: 50px;
+        }
+    
+    .photos {
+        display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+    }
+    
+    #burger,#cake,#tacos {
+	    height: 315px;
+	    width: auto;
+    }
+    
+    #burger:hover {
+	    background-image: url('images/burger-hover.jpg');
+    }
+    
+    #about-text {
+        font-family: 'Nixie One', sans-serif;
+        color: #545252;
+        line-height: 200%;
+        max-width: 50%;
+        text-align: center;
+        margin-left: 25%;
+        }
+    
+    ol, ul {
+		list-style: none;
+        }    
+    
+    .section {
+        color: #545252;
+        font-family: 'Titan One', serif;
+        }
+        
+    
+    .review-quote {
+        font-family: 'Nixie One', sans-serif;
+        color: #545252;
+        line-height: 200%;
+        margin-bottom: 30px;
+        }
+    
+    body {
+	    background-color: #ececec;
+    }
+  
+    a {
+	    text-decoration: none;
+        color: #313131;
+        display: inline;
+    }
+    
+    a:hover {
+        color: #545252;
+        }
+        
+    .reviews-1 {
+	    text-align: center;
+    }
+    
+    .reviews-2 {
+	    text-align: center;
+    }
+    
+    
+    }
+    
+    .review a:hover {
+	    color: #64A992;
+    }
+    
+    h1,h2,h3,#location {
+	    text-align: center;
+    }
+    
+    .site-footer {
+	    color: #545252;
+	    margin-top: 50px;
+	    text-align: center;
+    }
+    
+    
+    </style>
+
+</head>
+
+
+<body>
+<div class="container">
+    
+     <!-- HEADER STARTS HERE --> 
+        <div class="site-header">
+    
+         <div class="social">
+            <a href="http://www.linkedin.com/pub/nico-vitti/31/2b/94"><img id="linkedin" src="images/portfolio/linkedin-32.png"></a>
+            <a href="http://www.twitter.com/niiicoviiittiii"><img id="twitter" src="images/portfolio/twitter-32.png"></a>
+            <a href="http://nicovitti.tumblr.com"><img id="tumblr" src="images/portfolio/tumblr-32.png"></a>
+        </div>
+            
+        		<ul class="site-nav">
+        			<h1 class="header" id="#nico-vitti">NICO VITTI</h1>
+        				<li><a href="#about" title="About">About</a></li>
+        				<li><a href="#projects" title="Menu">Projects</a></li>
+        				<li><a href="#visualreferences" title="Reviews">Visual References</a></li>
+                </ul>
+        
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="images/portfolio/crown-heights.jpg" />
+                </li>
+                <li>
+                    <img src="images/portfolio/farmers-market.jpg" />
+                </li>
+                <li>
+                    <img src="images/portfolio/addiction.jpg" />
+                </li>
+                </ul>
+                </div>
+            
+        	<div class="photos">
+        		<div class="photo-item" id="photo-burger">
+        			<img id="burger" src="images/portfolio/crown-heights.jpg">
+        			<div class="photo-content">
+        				<div class="photo-starburst">
+        					<h3>Orions' Farms Logo</h3>
+        				</div>
+        			</div>
+        		</div>
+				<img id="cake" src="images/portfolio/bones-complex.jpg">
+				<img id="tacos" src="images/portfolio/addiction.jpg">
+				<img id="tacos" src="images/portfolio/dead-prez.jpg">
+				<img id="tacos" src="images/portfolio/hamilton-tavern.png">
+				<img id="tacos" src="images/portfolio/under-the-island.jpg">
+				<img id="tacos" src="images/portfolio/ebony-singers.jpg">
+				<img id="tacos" src="images/portfolio/crown-heights.jpg">
+            </div>
+        </div>
+        
+         <!-- HEADER ENDS HERE --> 
+         
+         
+         <!-- MAIN CONTENT STARTS HERE --> 
+    <div class="about-content">
+        <h2 class="header section" id="about">ABOUT</h2>
+            <p id="about-text">Nico Vitti is a designer, photographer, and activist who lives in Baltimore, MD. He has loads of passion for graphic design and years of experience in photography. He has a B.A. in American Studies from Wesleyan University in Middletown, Connecticut and in 2014 he will graduate from Maryland Institute College of Art with an M.A. in Social Design.</p>
+    </div>
+    
+    <div class="menu-content">
+        <h2 class="header section" id="menu"></h2>
+
+            
+            
+        </div>
+    <!-- MAIN CONTENT ENDS HERE --> 
+    
+
+		
+		
+		<!-- FOOTER STARTS HERE --> 
+		
+		<div class="site-footer">
+		
+		<h3 class= "review-quote">&copy; 2013</h3>
+		
+		</div>
+		
+		<!-- FOOTER ENDS HERE --> 
+</div>
+</body>
+
+</html>
